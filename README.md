@@ -8,5 +8,5 @@ local luawl = require('luawl')
 
 luawl:set_luawl_key('API_TOKEN')
 
-table.foreach(luawl.get_whitelist('luawl'), print)
+table.foreach(luawl:get_whitelist('luawl'), print)
 ```
