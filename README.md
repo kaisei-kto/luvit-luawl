@@ -4,7 +4,7 @@
 
 ## Example
 ```lua
-local luawl = require('luawl')
+local luawl = require('luvit-luawl')
 
 luawl:set_luawl_key('API_TOKEN')
 
